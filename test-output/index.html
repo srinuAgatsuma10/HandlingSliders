@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--100072058\testng-customsuite.xml</span>
+                    <span>C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-448373484\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="demoJQueryMobile.HandlingSlider" class="method navigator-link" hash-for-method="handlingSlider">handlingSlider</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="demoJQueryMobile.HandlingSlider" class="method navigator-link" hash-for-method="basicSlider">basicSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="demoJQueryMobile.HandlingSlider" class="method navigator-link" hash-for-method="highlightSlider">highlightSlider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="demoJQueryMobile.HandlingSlider" class="method navigator-link" hash-for-method="stepAttributeSlider">stepAttributeSlider</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -126,9 +136,23 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="handlingSlider">
-                  </a> <!-- handlingSlider -->
-                  <span class="method-name">handlingSlider</span>
+                  <a name="basicSlider">
+                  </a> <!-- basicSlider -->
+                  <span class="method-name">basicSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="highlightSlider">
+                  </a> <!-- highlightSlider -->
+                  <span class="method-name">highlightSlider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="stepAttributeSlider">
+                  </a> <!-- stepAttributeSlider -->
+                  <span class="method-name">stepAttributeSlider</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +160,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--100072058\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-448373484\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -185,16 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'handlingSlider')
+data.setCell(0, 1, 'basicSlider')
 data.setCell(0, 2, 'demoJQueryMobile.HandlingSlider')
-data.setCell(0, 3, 570);
+data.setCell(0, 3, 519);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'highlightSlider')
+data.setCell(1, 2, 'demoJQueryMobile.HandlingSlider')
+data.setCell(1, 3, 64);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'stepAttributeSlider')
+data.setCell(2, 2, 'demoJQueryMobile.HandlingSlider')
+data.setCell(2, 3, 57);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 570 ms</span>
+              <span class="suite-total-time">Total running time: 640 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,12 +258,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">handlingSlider</span>
-                <span class="method-start">6011 ms</span>
+                <span class="method-name">basicSlider</span>
+                <span class="method-start">6601 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">highlightSlider</span>
+                <span class="method-start">7126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">stepAttributeSlider</span>
+                <span class="method-start">7194 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6587 ms</span>
+                <span class="method-start">7254 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

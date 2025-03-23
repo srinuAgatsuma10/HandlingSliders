@@ -24,15 +24,35 @@ public class HandlingSlider {
 		driver.manage().window().maximize();
 	}
 
-	@Test(priority = 1)
+	@Test
 	public void basicSlider() {
-		// Actions Class
-		Actions act = new Actions(driver);
-		WebElement def_slider = driver.findElement(By.xpath(
+		Actions act = new Actions(driver); // Actions Class
+		WebElement basicSlider = driver.findElement(By.xpath(
 				"//div[@class='jqm-demos ui-page ui-page-theme-a ui-page-footer-fixed ui-page-active']//div[1]//form[1]//div[1]//div[1]//a[1]"));
-		System.out.println("current location :" + def_slider.getLocation()); // X-872,Y-436
-		act.dragAndDropBy(def_slider, -700, -400).perform();
-		System.out.println("location after moving :" + def_slider.getLocation());
+		System.out.println("Current location :" + basicSlider.getLocation()); // X-872,Y-436
+		act.dragAndDropBy(basicSlider, -700, -400).perform();
+		System.out.println("Location after moving :" + basicSlider.getLocation());
+	}
+
+	@Test
+	public void stepAttributeSlider() {
+		Actions act = new Actions(driver); // Actions Class
+		WebElement saSlider = driver
+				.findElement(By.xpath("//a[@class=\"ui-slider-handle ui-btn ui-shadow\" and @aria-valuemax=\"10\"]"));
+		System.out.println("Current location :" + saSlider.getLocation()); // X->872, Y->689
+		act.dragAndDropBy(saSlider, -550, -600);
+		System.out.println("Location after moving :" + saSlider.getLocation());
+	}
+
+	@Test
+	public void highlightSlider() {
+		Actions act = new Actions(driver); // Actions Class
+		WebElement hilghtSlider = driver
+				.findElement(By.xpath("//a[@class=\"ui-slider-handle ui-btn ui-shadow\" and @aria-valuemax=\"10\"]"));
+		System.out.println("Current location :" + hilghtSlider.getLocation()); // X->872, Y->689
+		act.dragAndDropBy(hilghtSlider, 872, -600);
+		System.out.println("Location after moving :" + hilghtSlider.getLocation());
+
 	}
 
 	@AfterClass

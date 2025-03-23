@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="handlingSlider"/>
+          <include name="stepAttributeSlider"/>
         </methods>
       </class> <!-- demoJQueryMobile.HandlingSlider -->
     </classes>
