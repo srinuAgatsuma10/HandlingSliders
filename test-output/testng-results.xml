@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T06:20:27 IST" name="Default suite" finished-at="2025-03-24T06:20:32 IST" duration-ms="5831">
+  <suite started-at="2025-03-24T06:44:31 IST" name="Default suite" finished-at="2025-03-24T06:44:37 IST" duration-ms="5916">
     <groups>
     </groups>
-    <test started-at="2025-03-24T06:20:27 IST" name="Default test" finished-at="2025-03-24T06:20:32 IST" duration-ms="5831">
-      <class name="demoJQueryMobile.HandlingSlider">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:demoJQueryMobile.HandlingSlider@4afcd809]" started-at="2025-03-24T06:20:27 IST" name="setUp" finished-at="2025-03-24T06:20:31 IST" duration-ms="4335" status="PASS">
+    <test started-at="2025-03-24T06:44:31 IST" name="Default test" finished-at="2025-03-24T06:44:37 IST" duration-ms="5916">
+      <class name="JQueyScript_PriceSlider.PriceRangeSlider">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@5bf0d49]" started-at="2025-03-24T06:44:31 IST" name="setUp" finished-at="2025-03-24T06:44:37 IST" duration-ms="5809" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="basicSlider()[pri:0, instance:demoJQueryMobile.HandlingSlider@4afcd809]" started-at="2025-03-24T06:20:31 IST" name="basicSlider" finished-at="2025-03-24T06:20:31 IST" duration-ms="445" status="PASS">
+        <test-method signature="priceRangeSlider()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@5bf0d49]" started-at="2025-03-24T06:44:37 IST" name="priceRangeSlider" finished-at="2025-03-24T06:44:37 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- basicSlider -->
-        <test-method signature="highlightSlider()[pri:0, instance:demoJQueryMobile.HandlingSlider@4afcd809]" started-at="2025-03-24T06:20:31 IST" name="highlightSlider" finished-at="2025-03-24T06:20:32 IST" duration-ms="418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- highlightSlider -->
-        <test-method signature="stepAttributeSlider()[pri:0, instance:demoJQueryMobile.HandlingSlider@4afcd809]" started-at="2025-03-24T06:20:32 IST" name="stepAttributeSlider" finished-at="2025-03-24T06:20:32 IST" duration-ms="418" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- stepAttributeSlider -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:demoJQueryMobile.HandlingSlider@4afcd809]" started-at="2025-03-24T06:20:32 IST" name="tearDown" finished-at="2025-03-24T06:20:32 IST" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demoJQueryMobile.HandlingSlider -->
+        </test-method> <!-- priceRangeSlider -->
+      </class> <!-- JQueyScript_PriceSlider.PriceRangeSlider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
