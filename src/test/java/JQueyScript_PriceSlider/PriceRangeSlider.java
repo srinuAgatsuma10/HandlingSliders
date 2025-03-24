@@ -36,10 +36,21 @@ public class PriceRangeSlider {
 
 		System.out.println("Min_Slider Current location after moving : " + min_slider.getLocation());
 		System.out.println("Max_Slider Current location adter moving : " + max_slider.getLocation());
+
+		driver.findElement(By.xpath("//button[@id='price-range-submit']")).click();
+		WebElement result_text = driver.findElement(By.xpath("//div[@id='searchResults']"));
+		System.out.println(result_text.getText());
 	}
 
 	@Test
 	public void byUpdatingValues() {
+		WebElement min_price = driver.findElement(By.xpath("//input[@id='min_price']"));
+		WebElement max_price = driver.findElement(By.xpath("//input[@id='max_price']"));
+		driver.findElement(By.xpath("//button[@id='price-range-submit']")).click();
+		WebElement result_text = driver.findElement(By.xpath("//div[@id='searchResults']"));
+		System.out.println(result_text.getText());
+		
+		// Need to implement
 
 	}
 
