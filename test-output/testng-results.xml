@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-24T06:52:00 IST" name="Default suite" finished-at="2025-03-24T06:52:11 IST" duration-ms="10617">
+  <suite started-at="2025-03-24T18:15:15 IST" name="Default suite" finished-at="2025-03-24T18:16:12 IST" duration-ms="57091">
     <groups>
     </groups>
-    <test started-at="2025-03-24T06:52:00 IST" name="Default test" finished-at="2025-03-24T06:52:11 IST" duration-ms="10617">
+    <test started-at="2025-03-24T18:15:15 IST" name="Default test" finished-at="2025-03-24T18:16:12 IST" duration-ms="57091">
       <class name="JQueyScript_PriceSlider.PriceRangeSlider">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@5b7a5baa]" started-at="2025-03-24T06:52:00 IST" name="setUp" finished-at="2025-03-24T06:52:11 IST" duration-ms="10215" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@62379589]" started-at="2025-03-24T18:15:15 IST" name="setUp" finished-at="2025-03-24T18:16:11 IST" duration-ms="55454" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="byUpdatingValues()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@5b7a5baa]" started-at="2025-03-24T06:52:11 IST" name="byUpdatingValues" finished-at="2025-03-24T06:52:11 IST" duration-ms="190" status="PASS">
+        <test-method signature="byUpdatingValues()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@62379589]" started-at="2025-03-24T18:16:11 IST" name="byUpdatingValues" finished-at="2025-03-24T18:16:12 IST" duration-ms="681" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- byUpdatingValues -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@5b7a5baa]" started-at="2025-03-24T06:52:11 IST" name="tearDown" finished-at="2025-03-24T06:52:11 IST" duration-ms="177" status="PASS">
+        <test-method signature="priceRangeSlider()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@62379589]" started-at="2025-03-24T18:16:12 IST" name="priceRangeSlider" finished-at="2025-03-24T18:16:12 IST" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- priceRangeSlider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:JQueyScript_PriceSlider.PriceRangeSlider@62379589]" started-at="2025-03-24T18:16:12 IST" name="tearDown" finished-at="2025-03-24T18:16:12 IST" duration-ms="444" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
