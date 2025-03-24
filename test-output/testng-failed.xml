@@ -5,9 +5,9 @@
     <classes>
       <class name="demoJQueryMobile.HandlingSlider">
         <methods>
+          <include name="basicSlider"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="stepAttributeSlider"/>
         </methods>
       </class> <!-- demoJQueryMobile.HandlingSlider -->
     </classes>
