@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="JQueyScript_PriceSlider.PriceRangeSlider">
+      <class name="tutorialsPoint.Handling_Slider">
         <methods>
-          <include name="tearDown"/>
-          <include name="byUpdatingValues"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="handlingSlider"/>
         </methods>
-      </class> <!-- JQueyScript_PriceSlider.PriceRangeSlider -->
+      </class> <!-- tutorialsPoint.Handling_Slider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
