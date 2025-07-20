@@ -27,11 +27,11 @@ public class Handling_Slider {
 	@Test
 	public void handlingSlider()throws Exception {
 		Actions act = new Actions(driver); // Actions Class
-		WebElement min_slider = driver.findElement(By.xpath("//input[@id='ageInputId']"));
-		System.out.println("Current location :" + min_slider.getLocation()); // X->525,Y->198
-		act.dragAndDropBy(min_slider, -200, -100).perform();
+		WebElement slidePointer = driver.findElement(By.xpath("//input[@id='ageInputId']"));
+		System.out.println("Current location :" + slidePointer.getLocation()); // X->525,Y->198
+		act.dragAndDropBy(slidePointer, -200, -100).perform();
 		Thread.sleep(3000);
-		System.out.println("Location after moving :" + min_slider.getLocation());
+		System.out.println("Location after moving :" + slidePointer.getLocation());
 	}
 	
 	@AfterClass
