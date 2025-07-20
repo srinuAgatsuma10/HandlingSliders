@@ -25,7 +25,7 @@ public class HandlingSlider {
 		driver.manage().window().maximize();
 	}
 
-	@Test(description = "Approach One : ")
+	@Test()
 	public void handlingSliderA1() throws Exception {
 		// Action Class
 		Actions ac = new Actions(driver);
@@ -35,23 +35,6 @@ public class HandlingSlider {
 				.findElement(By.xpath("//span[@class='ui-slider-handle ui-corner-all ui-state-default']"));
 		System.out.println("Current slider location : " + sliderPionter.getLocation());
 		ac.dragAndDropBy(sliderPionter, 500, 3);
-		Thread.sleep(3000);
-		System.out.println("Location after moving : " + sliderPionter.getLocation());
-	}
-
-	@Test(description = "Approach Two : ")
-	public void handlingSliderA2() throws Exception {
-		// Action Class
-		Actions ac = new Actions(driver);
-		WebElement demoFrame = driver.findElement(By.xpath("//iframe[@class='demo-frame']"));
-		driver.switchTo().frame(demoFrame);
-		WebElement sliderPionter = driver
-				.findElement(By.xpath("//span[@style='left: 0%;']"));
-		System.out.println("Current slider location : " + sliderPionter.getLocation());
-		for (int i = 0; i < 100; i++) {
-			driver
-			.findElement(By.xpath("//span[@style='left: "+i+"%;']"));
-		}
 		Thread.sleep(3000);
 		System.out.println("Location after moving : " + sliderPionter.getLocation());
 	}
